@@ -89,5 +89,42 @@ body {
 }
 
 
-@font-face { font-family: CustomFont; src: url('1130171.ttf'); } 
+@font-face {
+    font-family: 'ukrainiancompactregular';
+    src: url('../fonts/ukrainiancompact-webfont.eot');
+    src: url('../fonts/ukrainiancompact-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ukrainiancompact-webfont.woff') format('woff'),
+         url('../fonts/ukrainiancompact-webfont.ttf') format('truetype'),
+         url('../fonts/ukrainiancompact-webfont.svg#ukrainiancompactregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    font-family: 'ukrainiancompactregular', Arial, sans-serif; 
+    font-size: 80px;
+    color: #2f6548;
+    
+    float: left;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -306px;
+    margin-top: -89px;
+}
+
+.place {
+    font-family: 'Trebuchet MS', Arial, sans-serif; 
+    font-size: 16px;
+    color: #2f6548;
+    
+    float: left;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: 155px;
+    margin-top: -24px;
+}
 
