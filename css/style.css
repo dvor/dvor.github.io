@@ -1,0 +1,93 @@
+body {
+    background-image:url('../images/bg-pattern.png');
+    background-repeat:repeat-xy;
+}
+
+.verticalCenter {
+    background: url('../images/white-pattern.png') repeat-x;
+    width: 100%;
+    height: 312px;
+    position: absolute;
+    left: 0%;
+    top: 50%; 
+    margin-top: -156px;
+}
+
+.separator {
+    float: center;
+}
+.separator a {
+    background: url("../images/separator.png") no-repeat scroll;
+    display: block;
+
+    width: 708px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -354px;
+    margin-top: 0px;
+}
+
+.email {
+    float: center;
+}
+.email a {
+    background: url("../images/email-button.png") no-repeat scroll;
+    display: block;
+
+    width: 43px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -166px;
+    margin-top: 24px;
+}
+.email a:hover {
+    background: url("../images/email-button-pressed.png") no-repeat scroll 0 0 transparent;
+}
+
+.linkedin {
+    float: left;
+    margin-top: 0;
+}
+.linkedin a {
+    background: url("../images/linkedin-button.png") no-repeat scroll;
+    display: block;
+
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -31px;
+    margin-top: 24px;
+}
+.linkedin a:hover {
+    background: url("../images/linkedin-button-pressed.png") no-repeat scroll 0 0 transparent;
+}
+
+.github {
+    float: left;
+    margin-top: 0;
+}
+.github a {
+    background: url("../images/github-button.png") no-repeat scroll;
+    display: block;
+
+    width: 51px;
+    height: 64px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: 122px;
+    margin-top: 24px;
+}
+.github a:hover {
+    background: url("../images/github-button-pressed.png") no-repeat scroll 0 0 transparent;
+}
+
+
+@font-face { font-family: CustomFont; src: url('1130171.ttf'); } 
+
