@@ -16,7 +16,7 @@ body {
 .separator {
     float: center;
 }
-.separator a {
+.separator {
     background: url("../images/separator.png") no-repeat scroll;
     display: block;
 
