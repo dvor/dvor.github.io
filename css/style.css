@@ -1,3 +1,10 @@
+body:before {
+    content: url("../images/email-button-pressed.png")
+             url("../images/linkedin-button-pressed.png")
+             url("../images/github-button-pressed.png");
+    display:none;
+}
+
 body {
     background-image:url('../images/bg-pattern.png');
     background-repeat:repeat-xy;
