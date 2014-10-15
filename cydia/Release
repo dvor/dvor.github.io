@@ -1,0 +1,11 @@
+Origin: Antidote Cydia Repo
+Label: Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: tangelo
+Architectures: iphoneos-arm
+Components: main
+Description: Antidote Cydia Repo
+MD5Sum:
+ ecc173909b636fb89131a9c29f49fb3e 499 Packages
+ 08b7f1cae8c191672f8cce05831fe919 383 Packages.bz2
