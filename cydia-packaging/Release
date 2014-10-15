@@ -7,5 +7,5 @@ Architectures: iphoneos-arm
 Components: main
 Description: Antidote Cydia Repo
 MD5Sum:
- ecc173909b636fb89131a9c29f49fb3e 499 Packages
- 08b7f1cae8c191672f8cce05831fe919 383 Packages.bz2
+ 0e9bc7f6be995d7d5704ce26722ac200 500 Packages
+ 5ed9adcfcaf746af82e2dda3f02b0999 392 Packages.bz2
