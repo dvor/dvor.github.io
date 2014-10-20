@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>NY569Z28GD.me.dvor.Antidote</string>
+	<string>NHVF8NSG3J.me.dvor.Antidote</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>NY569Z28GD.me.dvor.Antidote</string>
+		<string>NHVF8NSG3J.me.dvor.Antidote</string>
 	</array>
 </dict>
 </plist>
