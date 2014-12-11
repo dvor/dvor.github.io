@@ -1,10 +1,10 @@
 Package: me.dvor.antidote
 Name: Antidote
-Version: 0.2-4
+Version: 0.2.1-1
 Architecture: iphoneos-arm
 Description: Tox client for iOS.
 Homepage: https://github.com/dvor/Antidote
 Depiction: https://github.com/dvor/Antidote
-Maintainer: Dmitry Vorobyov <d@dvor.me>
-Author: Dmitry Vorobyov <d@dvor.me>
+Maintainer: Dmytro Vorobiov <d@dvor.me>
+Author: Dmytro Vorobiov <d@dvor.me>
 Section: Messaging
