@@ -18,35 +18,35 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bWAA5PeDzAMaxno4GRtpQS++NcI=
+		w6r7amYFE3gi8egVJK9t2A7/uV4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dEFiRYFdwkuUynUXa4vhr8CcXNg=
+		gjFqMJRsP+oQ+okt4cR3I0uJA08=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
-		ZnUE6k8ojlK34p8kTOO/J6Z/n80=
+		EiQGgkefQRQL/gBrBlgIBkmee1I=
 		</data>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<data>
-		MSEvczdJTRWZ3UwiZtr93p9UdNQ=
+		t2PpP7T0SG5vQN/hm9V0Bm9kZec=
 		</data>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<data>
-		HyNiLugSP9ZUaoq7LBoDBLNI7uo=
+		YrZldcWhJ/gyBil3U8V1QUrJ06w=
 		</data>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<data>
-		LcAgx0sMifCsL0GJiYluq2PP+UQ=
+		lYaO+7wa0wc0JexPtf00gDX/GW4=
 		</data>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<data>
-		G9z5h1au/co9+tYXiXB55DawgkU=
+		RtHeinmVYE2/LFRg9Z3uqbaJD8o=
 		</data>
 		<key>JSQMessagesViewController.nib</key>
 		<data>
-		JEf4O68q40IqavgyYik80A1XO2A=
+		SxOOHqZ62bCQvmpA6Ew+BUS7Bv8=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -153,22 +153,6 @@
 		<data>
 		gRd7dX7wLOrQDPFV3PNVwrdSylw=
 		</data>
-		<key>zbar-back.png</key>
-		<data>
-		68VNkUmSdawVWAE7jYzFdeY1T8U=
-		</data>
-		<key>zbar-help.html</key>
-		<data>
-		yy/6XAV2yuDI1ypcAVHYcMtMxB8=
-		</data>
-		<key>zbar-helpicons.png</key>
-		<data>
-		nGckEJih8E+73srjF4QVhHubRhA=
-		</data>
-		<key>zbar-samples.png</key>
-		<data>
-		3J3cl0sJeHomci+PnTuVxQ9TYJI=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -186,31 +170,31 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bWAA5PeDzAMaxno4GRtpQS++NcI=
+		w6r7amYFE3gi8egVJK9t2A7/uV4=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
-		ZnUE6k8ojlK34p8kTOO/J6Z/n80=
+		EiQGgkefQRQL/gBrBlgIBkmee1I=
 		</data>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<data>
-		MSEvczdJTRWZ3UwiZtr93p9UdNQ=
+		t2PpP7T0SG5vQN/hm9V0Bm9kZec=
 		</data>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<data>
-		HyNiLugSP9ZUaoq7LBoDBLNI7uo=
+		YrZldcWhJ/gyBil3U8V1QUrJ06w=
 		</data>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<data>
-		LcAgx0sMifCsL0GJiYluq2PP+UQ=
+		lYaO+7wa0wc0JexPtf00gDX/GW4=
 		</data>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<data>
-		G9z5h1au/co9+tYXiXB55DawgkU=
+		RtHeinmVYE2/LFRg9Z3uqbaJD8o=
 		</data>
 		<key>JSQMessagesViewController.nib</key>
 		<data>
-		JEf4O68q40IqavgyYik80A1XO2A=
+		SxOOHqZ62bCQvmpA6Ew+BUS7Bv8=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -312,22 +296,6 @@
 		<key>typing@2x.png</key>
 		<data>
 		gRd7dX7wLOrQDPFV3PNVwrdSylw=
-		</data>
-		<key>zbar-back.png</key>
-		<data>
-		68VNkUmSdawVWAE7jYzFdeY1T8U=
-		</data>
-		<key>zbar-help.html</key>
-		<data>
-		yy/6XAV2yuDI1ypcAVHYcMtMxB8=
-		</data>
-		<key>zbar-helpicons.png</key>
-		<data>
-		nGckEJih8E+73srjF4QVhHubRhA=
-		</data>
-		<key>zbar-samples.png</key>
-		<data>
-		3J3cl0sJeHomci+PnTuVxQ9TYJI=
 		</data>
 	</dict>
 	<key>rules</key>
