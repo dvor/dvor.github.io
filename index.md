@@ -43,6 +43,13 @@ title: Home
             {{ release.release_date | date: "%B %-d, %Y" }}
           </p>
         {% endif %}
+        {% if release.pre_release_note and release.release_date %}
+          {% assign rd = release.release_date | date: "%s" %}
+          {% assign now = site.time | date: "%s" %}
+          {% if rd > now %}
+            <p class="pre-release-note">{{ release.pre_release_note }}</p>
+          {% endif %}
+        {% endif %}
         {% if release.description %}
           <p>{{ release.description }}</p>
         {% endif %}
