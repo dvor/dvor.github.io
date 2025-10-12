@@ -11,8 +11,7 @@ title: Home
     <h1>{{ site.title }}</h1>
     <p class="tag">{{ site.description }}</p>
     <p class="bio">
-      Dmytro Vorobiov is a progressive jazz fusion musician. His music blends atmospheric textures with complex harmonies and rhythmic structures.
-      Currently releasing his debut album in a waterfall format.
+      Dmytro is an Amsterdam-based multi-instrumentalist sculpting immersive soundscapes at the crossroads of jazz, progressive fusion, and rock. On Wandering Spaces, his latest album, he explores not just notes—but the silence between them—drawing inspiration from Miles Davis’ electric period and filtering it through a forward-leaning, progressive lens.
     </p>
     {% include streaming-badges.html %}
   </div>

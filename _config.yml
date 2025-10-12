@@ -3,21 +3,21 @@ description: "Progressive Jazz Fusion"
 url: "https://dvor.me"
 baseurl: ""
 
-email: "alias@example.com"
+email: "music@dvor.me"
 
 social:
   - name: "tiktok"
-    url: "https://www.tiktok.com/@your_handle"
+    url: "https://www.tiktok.com/@dvor5525"
   - name: "instagram"
-    url: "https://instagram.com/your_handle"
+    url: "https://www.instagram.com/__dvor/"
 
 streaming:
   - name: "spotify"
-    url: "https://open.spotify.com/artist/your_artist_id"
+    url: "https://open.spotify.com/artist/4EerBY9hdFw6XSfa2zH0TH"
   - name: "apple"
-    url: "https://music.apple.com/artist/your_artist_id"
+    url: "https://music.apple.com/artist/dmytro-vorobiov/1825502150"
   - name: "bandcamp"
-    url: "https://yourname.bandcamp.com"
+    url: "https://dmytrovorobiov.bandcamp.com"
 
 collections:
   music:
