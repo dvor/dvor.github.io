@@ -1,0 +1,138 @@
+:root{
+  --bg:#121212;
+  --panel:#171717;
+  --text:#E8E8E8;
+  --muted:#B8B8B8;
+  --accent:#7dd3fc;
+  --link:#d46426;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:0 auto;padding:24px}
+.header{position:sticky;top:0;background:rgba(18,18,18,.8);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #1f1f1f}
+.nav{display:flex;align-items:center;gap:20px;justify-content:space-between}
+.brand{font-weight:700;letter-spacing:.3px;color:var(--text)}
+.menu{display:flex;gap:16px;flex-wrap:wrap}
+.menu a{color:var(--text);opacity:.9;padding:6px 8px;border-radius:8px}
+.menu a.active,.menu a:hover{background:#1d1d1d}
+.section{padding:48px 0;border-bottom:1px solid #1f1f1f}
+.hero h1{font-size:48px;line-height:1.1;margin:.2em 0}
+.hero p.tag{color:var(--muted);margin-top:-8px}
+.badges{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0;justify-content:center}
+.badge{display:inline-flex;align-items:center;gap:10px;background:#1e1e1e;padding:10px 14px;border-radius:10px;border:1px solid #282828}
+.badge img{height:18px;width:auto;display:block}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--panel);border:1px solid #222;border-radius:14px;padding:16px}
+.card h3{margin:.4em 0}
+.footer{border-top:1px solid #1f1f1f;padding:24px 0;color:var(--muted)}
+.icons{display:flex;gap:14px;align-items:center;justify-content:center}
+.icon{opacity:.9}
+.icon:hover{opacity:1}
+@media (max-width: 800px){
+  .hero h1{font-size:36px}
+  .grid{grid-template-columns:1fr}
+}
+html { scroll-behavior: smooth; }
+
+
+/* Brand badge accents (subtle) */
+.badge--spotify span{}
+.badge--apple span{}
+.badge--bandcamp span{}
+
+/* Keep badges neutral backgrounds; icons add color pops */
+
+
+/* Social icon + text styling */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+.icon:hover {
+  opacity: 1;
+}
+.icon img {
+  display: block;
+}
+
+
+/* Contact icon + label alignment */
+.icons .icon { display: inline-flex; align-items: center; gap: 6px; }
+.icons .icon img, .icons .icon svg { display: block; }
+
+
+/* Platform icons under each release */
+.platform-icons { display: inline-flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.platform-icons .icon img, .platform-icons .icon svg { display:block; }
+
+/* Social icons in contact section */
+.social-icons { display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.social-icons .icon { display:inline-flex; align-items:center; gap:6px; }
+.social-icons .icon img { display:block; }
+
+
+/* === Hero Section Grid === */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.hero-photo {
+  display: flex;
+  justify-content: center;
+}
+.portrait {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero-text .bio {
+  margin-top: 1rem;
+  color: var(--muted);
+  max-width: 600px;
+}
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .portrait {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+  .hero-text .bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Uniform widths for streaming buttons on home + links */
+.badges .badge {
+  width: 220px;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .badges .badge {
+    width: 100%;
+  }
+}

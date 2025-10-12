@@ -1,0 +1,15 @@
+{% for p in include.platforms %}
+  {% if p.name == 'spotify' %}
+  <a class="icon" href="{{ p.url }}" aria-label="Spotify">
+    <img src="{{ '/assets/icons/spotify.svg' | relative_url }}" alt="Spotify" style="height:22px;width:22px;">
+  </a>
+  {% elsif p.name == 'apple' %}
+  <a class="icon" href="{{ p.url }}" aria-label="Apple Music">
+    <img src="{{ '/assets/icons/apple.svg' | relative_url }}" alt="Apple Music" style="height:22px;width:22px;">
+  </a>
+  {% elsif p.name == 'bandcamp' %}
+  <a class="icon" href="{{ p.url }}" aria-label="Bandcamp">
+    <img src="{{ '/assets/icons/bandcamp.svg' | relative_url }}" alt="Bandcamp" style="height:22px;width:22px;">
+  </a>
+  {% endif %}
+{% endfor %}

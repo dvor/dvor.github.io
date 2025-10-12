@@ -1,0 +1,32 @@
+title: "Dmytro Vorobiov"
+description: "Progressive Jazz Fusion"
+url: "https://dvor.me"
+baseurl: ""
+
+email: "alias@example.com"
+
+social:
+  - name: "tiktok"
+    url: "https://www.tiktok.com/@your_handle"
+  - name: "instagram"
+    url: "https://instagram.com/your_handle"
+
+streaming:
+  - name: "spotify"
+    url: "https://open.spotify.com/artist/your_artist_id"
+  - name: "apple"
+    url: "https://music.apple.com/artist/your_artist_id"
+  - name: "bandcamp"
+    url: "https://yourname.bandcamp.com"
+
+collections:
+  music:
+    output: true
+    permalink: /music/:name/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+theme: null
