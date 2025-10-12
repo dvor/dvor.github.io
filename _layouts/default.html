@@ -20,6 +20,33 @@
   </header>
 
   <main class="wrap">
+    {% if page.release_date %}{% assign _rd = page.release_date | date: "%s" %}{% assign _now = site.time | date: "%s" %}<!-- dbg rd={{ _rd }} now={{ _now }} -->{% endif %}
+    {% if page.title %}
+      <h1 class="page-title">
+        {{ page.title }}
+        {% if page.pre_release_label and page.release_date %}
+          {% assign release_date_obj = page.release_date | date: "%s" %}
+          {% assign now_obj = site.time | date: "%s" %}
+          {% if release_date_obj > now_obj %}
+            <span class="pre-release-label">{{ page.pre_release_label }}</span>
+          {% endif %}
+        {% endif %}
+      </h1>
+    {% endif %}
+
+    {% if page.release_date %}
+      {% assign release_date_obj = page.release_date | date: "%s" %}
+      {% assign now_obj = site.time | date: "%s" %}
+      {% if release_date_obj > now_obj %}
+        <div class="pre-release-notice">
+          🚀 This release will be fully available on {{ page.release_date | date: "%B %d, %Y" }}.
+          {% if page.pre_release_note %}
+            <br>{{ page.pre_release_note }}
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+
     {{ content }}
   </main>
 

@@ -136,3 +136,28 @@ html { scroll-behavior: smooth; }
     width: 100%;
   }
 }
+
+
+.cover-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cover-wrapper img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pre-release-ribbon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--link);
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
