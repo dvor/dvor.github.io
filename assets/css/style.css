@@ -42,8 +42,6 @@ html { scroll-behavior: smooth; }
 .badge--apple span{}
 .badge--bandcamp span{}
 
-/* Keep badges neutral backgrounds; icons add color pops */
-
 
 /* Social icon + text styling */
 .icon {
@@ -126,8 +124,16 @@ html { scroll-behavior: smooth; }
 
 /* Uniform widths for streaming buttons on home + links */
 .badges .badge {
-  width: 220px;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 180px;
+  width: auto;
+  padding: 8px 12px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  border: 1px solid #282828;
 }
 
 @media (max-width: 500px) {
@@ -173,4 +179,18 @@ html { scroll-behavior: smooth; }
   color: var(--muted);
   margin-top: -8px;
   margin-bottom: 24px;
+}
+
+
+.badges .badge img {
+  height: 22px;
+  width: 22px;
+  flex-shrink: 0;
+}
+
+.badges .badge span {
+  flex: 1;
+  text-align: left;
+  line-height: 1.2;
+  margin-left: 2px;
 }
