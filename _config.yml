@@ -18,6 +18,8 @@ streaming:
     url: "https://music.apple.com/artist/dmytro-vorobiov/1825502150"
   - name: "bandcamp"
     url: "https://dmytrovorobiov.bandcamp.com"
+  - name: "deezer"
+    url: "https://www.deezer.com/us/artist/334896911"
 
 collections:
   music:

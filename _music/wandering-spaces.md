@@ -7,6 +7,6 @@ cover: "/assets/images/wandering-spaces.jpg"
 platforms:
   - name: "bandcamp"
     url: "https://dmytrovorobiov.bandcamp.com/album/wandering-spaces"
-description: "Performing every instrument on the record, Dmytro layers electric guitar, subtle rhythmic textures, and the expressive breath of an electric trumpet tone - channeling raw emotional power through a modern, synthesized sound. The result is a spacious, slow-burning experience: part improvisation, part meditation."
+description: "A layered blend of guitar, subtle rhythms, and trumpet tones—shaping a spacious, meditative soundscape."
 pre_release_note: "Available early on Bandcamp."
 ---

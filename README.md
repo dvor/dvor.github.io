@@ -8,14 +8,14 @@ Focus: music releases with streaming links, a personal hero section, and simple 
     .
     ├── _config.yml
     ├── _includes/
-    │   ├── streaming-badges.html   # hero streaming links (Spotify/Apple/Bandcamp)
+    │   ├── streaming-badges.html   # hero streaming links (Spotify/Apple/Bandcamp/Deezer)
     │   └── release-badges.html     # per-release icons on Music section
     ├── _layouts/
     │   └── default.html            # header, nav, footer, wrapper
     ├── _music/                     # one .md per release
     ├── assets/
     │   ├── css/style.css           # dark theme, layout
-    │   ├── icons/                  # local SVGs: spotify.svg, apple.svg, bandcamp.svg, tiktok.svg, instagram.svg
+    │   ├── icons/                  # local SVGs: spotify.svg, apple.svg, bandcamp.svg, deezer.svg, tiktok.svg, instagram.svg
     │   └── images/portrait.jpg     # hero portrait (replace with your photo)
     ├── index.md                    # single page: Hero (with bio), Music, Contact
     └── links.md                    # link-in-bio page for TikTok/Instagram

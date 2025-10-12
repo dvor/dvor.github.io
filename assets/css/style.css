@@ -41,6 +41,7 @@ html { scroll-behavior: smooth; }
 .badge--spotify span{}
 .badge--apple span{}
 .badge--bandcamp span{}
+.badge--deezer span{}
 
 
 /* Social icon + text styling */

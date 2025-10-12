@@ -11,5 +11,9 @@
   <a class="icon" href="{{ p.url }}" aria-label="Bandcamp">
     <img src="{{ '/assets/icons/bandcamp.svg' | relative_url }}" alt="Bandcamp" style="height:44px;width:44px;">
   </a>
+  {% elsif p.name == 'deezer' %}
+  <a class="icon" href="{{ p.url }}" aria-label="Deezer">
+    <img src="{{ '/assets/icons/deezer.svg' | relative_url }}" alt="Deezer" style="height:44px;width:44px;">
+  </a>
   {% endif %}
 {% endfor %}

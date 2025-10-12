@@ -1,6 +1,7 @@
 {% assign spotify = site.streaming | where: 'name', 'spotify' | first %}
 {% assign apple = site.streaming | where: 'name', 'apple' | first %}
 {% assign bandcamp = site.streaming | where: 'name', 'bandcamp' | first %}
+{% assign deezer = site.streaming | where: 'name', 'deezer' | first %}
 
 <div class="badges">
   {% if spotify %}
@@ -21,6 +22,13 @@
   <a class="badge badge--bandcamp" href="{{ bandcamp.url }}">
     <img alt="Bandcamp" src="{{ '/assets/icons/bandcamp.svg' | relative_url }}" style="height:44px;width:44px;">
     <span>Bandcamp</span>
+  </a>
+  {% endif %}
+
+  {% if deezer %}
+  <a class="badge badge--deezer" href="{{ deezer.url }}">
+    <img alt="Deezer" src="{{ '/assets/icons/deezer.svg' | relative_url }}" style="height:44px;width:44px;">
+    <span>Deezer</span>
   </a>
   {% endif %}
 </div>
