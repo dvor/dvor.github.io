@@ -16,6 +16,18 @@ title: Home
     {% include streaming-links.html style="badges" %}
   </div>
 </section>
+
+<!-- Mailing list CTA -->
+<section class="section mailing-cta-section">
+  <h2>Stay in the Loop</h2>
+  <p class="cta-subtitle">Be the first to hear new releases and exclusive content.<br>Monthly updates, no spam.</p>
+  <div class="mailing-list-cta">
+    <a class="ml-onclick-form cta-button" href="javascript:void(0)" onclick="ml('show', 'R2ISyG', true)">
+      🎧 Get early access to new music
+    </a>
+  </div>
+</section>
+
 <section id="music" class="section">
   <h2>Music</h2>
   <p class="music-intro">Selected releases — click any platform to listen.</p>

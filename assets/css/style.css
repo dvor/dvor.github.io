@@ -112,6 +112,28 @@ html { scroll-behavior: smooth; }
   margin-bottom: 32px;
 }
 
+.links-page .tag {
+  color: var(--muted);
+}
+
+/* === Main Page Mailing CTA === */
+.mailing-cta-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.mailing-cta-section h2 {
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.cta-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+
 .more-info {
   margin-top: 20px;
   padding-top: 20px;
@@ -128,6 +150,58 @@ html { scroll-behavior: smooth; }
 .more-info a:hover {
   opacity: 1;
   color: var(--text);
+}
+
+/* === Mailing List CTA === */
+.mailing-list-cta {
+  margin: 24px 0 32px 0;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(135deg, var(--link), #e85a4f);
+  color: white !important;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(212, 100, 38, 0.3);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  min-height: 60px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #e85a4f, var(--link));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(212, 100, 38, 0.4);
+  text-decoration: none;
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+  .mailing-list-cta {
+    max-width: 100%;
+  }
+  
+  .cta-button {
+    font-size: 1rem;
+    padding: 12px 16px;
+    min-height: 56px;
+  }
 }
 
 /* === Go Page Links === */
