@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 <section class="section hero hero-grid">

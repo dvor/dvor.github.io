@@ -9,7 +9,7 @@
 Public hub for Dmytro Vorobiov as a **musician**. Prioritizes listening (Spotify/Apple/Bandcamp/YouTube), quick personal context, and easy contact. No tech résumé focus.
 
 ## 2) Audience
-- Listeners from TikTok/Instagram and streaming platforms
+- [Listeners](Listeners) from TikTok/Instagram and streaming platforms
 - Fans exploring more music
 - Potential collaborators / media
 
