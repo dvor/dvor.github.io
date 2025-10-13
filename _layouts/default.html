@@ -8,6 +8,7 @@
   {%- seo -%}
 </head>
 <body>
+  {% unless page.url == '/links/' %}
   <header class="header">
     <div class="wrap nav">
       <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -18,6 +19,7 @@
       </nav>
     </div>
   </header>
+  {% endunless %}
 
   <main class="wrap">
     {% if page.title %}
