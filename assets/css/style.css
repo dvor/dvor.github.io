@@ -55,7 +55,7 @@ html { scroll-behavior: smooth; }
 
 /* Icon sizes */
 .badge img { height: 22px; width: 22px; flex-shrink: 0; }
-.platform-icons .icon img { height: 44px; width: 44px; }
+.platform-icons .icon img { height: 32px; width: 32px; }
 .social-icons .icon img { height: 24px; width: 24px; }
 
 /* Icon containers */
