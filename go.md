@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /links/
+permalink: /go/
 ---
 
 <section class="section links-page">
