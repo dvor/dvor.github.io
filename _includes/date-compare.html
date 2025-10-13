@@ -1,0 +1,13 @@
+{% comment %}
+Date comparison utility
+Usage: {% include date-compare.html date=release.release_date %}
+Returns: is_future (boolean), formatted_date (string)
+{% endcomment %}
+
+{% assign release_date_obj = include.date | date: "%s" %}
+{% assign now_obj = site.time | date: "%s" %}
+{% assign is_future = false %}
+{% if release_date_obj > now_obj %}
+  {% assign is_future = true %}
+{% endif %}
+{% assign formatted_date = include.date | date: "%B %-d, %Y" %}

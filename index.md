@@ -27,9 +27,8 @@ title: Home
           {% if release.cover %}
             <img src="{{ release.cover }}" alt="{{ release.title }} cover">
             {% if release.pre_release_label and release.release_date %}
-              {% assign rd = release.release_date | date: "%s" %}
-              {% assign now = site.time | date: "%s" %}
-              {% if rd > now %}
+              {% include date-compare.html date=release.release_date %}
+              {% if is_future %}
                 <div class="pre-release-ribbon">{{ release.pre_release_label }}</div>
               {% endif %}
             {% endif %}
@@ -39,14 +38,14 @@ title: Home
           {{ release.title }}
         </h3>
         {% if release.release_date %}
+          {% include date-compare.html date=release.release_date %}
           <p style="color:var(--muted);font-size:0.9em;margin-top:-8px;">
-            {{ release.release_date | date: "%B %-d, %Y" }}
+            {{ formatted_date }}
           </p>
         {% endif %}
         {% if release.pre_release_note and release.release_date %}
-          {% assign rd = release.release_date | date: "%s" %}
-          {% assign now = site.time | date: "%s" %}
-          {% if rd > now %}
+          {% include date-compare.html date=release.release_date %}
+          {% if is_future %}
             <p class="pre-release-note">{{ release.pre_release_note }}</p>
           {% endif %}
         {% endif %}
@@ -65,17 +64,17 @@ title: Home
 <section id="contact" class="section">
   <h2>Contact</h2>
   <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-  <div class="social-icons" style="margin-top:10px;">
+  <div class="social-icons">
     {% for s in site.social %}
       {% if s.name == 'tiktok' %}
         <a class="icon" href="{{ s.url }}" aria-label="TikTok">
-          <img src="/assets/icons/tiktok.svg" alt="TikTok" style="height:24px;width:24px;">
-          <span style="margin-left:6px;">TikTok</span>
+          <img src="/assets/icons/tiktok.svg" alt="TikTok">
+          <span>TikTok</span>
         </a>
       {% elsif s.name == 'instagram' %}
         <a class="icon" href="{{ s.url }}" aria-label="Instagram">
-          <img src="/assets/icons/instagram.svg" alt="Instagram" style="height:24px;width:24px;border-radius:6px;">
-          <span style="margin-left:6px;">Instagram</span>
+          <img src="/assets/icons/instagram.svg" alt="Instagram" class="instagram-icon">
+          <span>Instagram</span>
         </a>
       {% endif %}
     {% endfor %}

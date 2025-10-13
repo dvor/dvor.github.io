@@ -16,16 +16,16 @@ permalink: /music/
     <h3>
       {{ release.title }}
       {% if release.pre_release_label and release.release_date %}
-        {% assign rd = release.release_date | date: "%s" %}
-        {% assign now = site.time | date: "%s" %}
-        {% if rd > now %}
+        {% include date-compare.html date=release.release_date %}
+        {% if is_future %}
           <span class="pre-release-label">{{ release.pre_release_label }}</span>
         {% endif %}
       {% endif %}
     </h3>
     {% if release.release_date %}
+      {% include date-compare.html date=release.release_date %}
       <p style="color:var(--muted);font-size:0.9em;margin-top:-8px;">
-        {{ release.release_date | date: "%B %-d, %Y" }}
+        {{ formatted_date }}
       </p>
     {% endif %}
     {% if release.description %}

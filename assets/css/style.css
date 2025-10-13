@@ -37,14 +37,7 @@ a:hover{text-decoration:underline}
 html { scroll-behavior: smooth; }
 
 
-/* Brand badge accents (subtle) */
-.badge--spotify span{}
-.badge--apple span{}
-.badge--bandcamp span{}
-.badge--deezer span{}
-
-
-/* Social icon + text styling */
+/* === Icon System === */
 .icon {
   display: inline-flex;
   align-items: center;
@@ -60,19 +53,38 @@ html { scroll-behavior: smooth; }
   display: block;
 }
 
+/* Icon sizes */
+.badge img { height: 22px; width: 22px; flex-shrink: 0; }
+.platform-icons .icon img { height: 44px; width: 44px; }
+.social-icons .icon img { height: 24px; width: 24px; }
 
-/* Contact icon + label alignment */
-.icons .icon { display: inline-flex; align-items: center; gap: 6px; }
-.icons .icon img, .icons .icon svg { display: block; }
+/* Icon containers */
+.platform-icons { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 12px; 
+  flex-wrap: wrap; 
+  margin-top: 8px; 
+}
 
+.social-icons { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 14px; 
+  flex-wrap: wrap; 
+  margin-top: 10px;
+}
 
-/* Platform icons under each release */
-.platform-icons { display: inline-flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.instagram-icon {
+  border-radius: 6px;
+}
 
-/* Social icons in contact section */
-.social-icons { display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.social-icons .icon { display:inline-flex; align-items:center; gap:6px; }
-.social-icons .icon img { display:block; }
+.icons { 
+  display: flex; 
+  gap: 14px; 
+  align-items: center; 
+  justify-content: center; 
+}
 
 
 /* === Hero Section Grid === */
@@ -183,15 +195,4 @@ html { scroll-behavior: smooth; }
 }
 
 
-.badges .badge img {
-  height: 22px;
-  width: 22px;
-  flex-shrink: 0;
-}
 
-.badges .badge span {
-  flex: 1;
-  text-align: left;
-  line-height: 1.2;
-  margin-left: 2px;
-}
