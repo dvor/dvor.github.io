@@ -1,0 +1,72 @@
+{% comment %}
+Unified streaming links - used by both main page badges and go page
+Parameters:
+  - style: "badges" (main page) or "links" (go page)
+{% endcomment %}
+
+{% assign spotify = site.streaming | where: 'name', 'spotify' | first %}
+{% assign apple = site.streaming | where: 'name', 'apple' | first %}
+{% assign youtube = site.streaming | where: 'name', 'youtube' | first %}
+{% assign bandcamp = site.streaming | where: 'name', 'bandcamp' | first %}
+
+{% if include.style == "badges" %}
+  <div class="badges">
+    {% if spotify %}
+    <a class="badge badge--spotify" href="{{ spotify.url }}">
+      <img alt="Spotify" src="{{ '/assets/icons/spotify.svg' | relative_url }}">
+      <span>Spotify</span>
+    </a>
+    {% endif %}
+
+    {% if apple %}
+    <a class="badge badge--apple" href="{{ apple.url }}">
+      <img alt="Apple Music" src="{{ '/assets/icons/apple.svg' | relative_url }}">
+      <span>Apple Music</span>
+    </a>
+    {% endif %}
+
+    {% if youtube %}
+    <a class="badge badge--youtube" href="{{ youtube.url }}">
+      <img alt="YouTube Music" src="{{ '/assets/icons/youtube.svg' | relative_url }}">
+      <span>YouTube Music</span>
+    </a>
+    {% endif %}
+
+    {% if bandcamp %}
+    <a class="badge badge--bandcamp" href="{{ bandcamp.url }}">
+      <img alt="Bandcamp" src="{{ '/assets/icons/bandcamp.svg' | relative_url }}">
+      <span>Listen & Support on Bandcamp</span>
+    </a>
+    {% endif %}
+  </div>
+{% elsif include.style == "links" %}
+  <div class="go-links">
+    {% if spotify %}
+    <a href="{{ spotify.url }}" class="go-link">
+      <img src="{{ '/assets/icons/spotify.svg' | relative_url }}" alt="Spotify">
+      <span>Spotify</span>
+    </a>
+    {% endif %}
+    
+    {% if apple %}
+    <a href="{{ apple.url }}" class="go-link">
+      <img src="{{ '/assets/icons/apple.svg' | relative_url }}" alt="Apple Music">
+      <span>Apple Music</span>
+    </a>
+    {% endif %}
+    
+    {% if youtube %}
+    <a href="{{ youtube.url }}" class="go-link">
+      <img src="{{ '/assets/icons/youtube.svg' | relative_url }}" alt="YouTube Music">
+      <span>YouTube Music</span>
+    </a>
+    {% endif %}
+    
+    {% if bandcamp %}
+    <a href="{{ bandcamp.url }}" class="go-link bandcamp">
+      <img src="{{ '/assets/icons/bandcamp.svg' | relative_url }}" alt="Bandcamp">
+      <span>Listen & Support on Bandcamp</span>
+    </a>
+    {% endif %}
+  </div>
+{% endif %}

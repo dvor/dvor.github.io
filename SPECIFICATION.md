@@ -6,7 +6,7 @@
 # Website Specification — Dmytro Vorobiov
 
 ## 1) Purpose
-Public hub for Dmytro Vorobiov as a **musician**. Prioritizes listening (Spotify/Apple/Bandcamp/Deezer), quick personal context, and easy contact. No tech résumé focus.
+Public hub for Dmytro Vorobiov as a **musician**. Prioritizes listening (Spotify/Apple/Bandcamp/YouTube), quick personal context, and easy contact. No tech résumé focus.
 
 ## 2) Audience
 - Listeners from TikTok/Instagram and streaming platforms
@@ -23,7 +23,7 @@ Public hub for Dmytro Vorobiov as a **musician**. Prioritizes listening (Spotify
 - Dark, minimalist layout; mobile-first.
 - **Hero side-by-side**: photo left, text + badges right; stacks on mobile.
 - Accent color **#d46426** (rust orange from album art).
-- Local SVG icons for Spotify, Apple Music, Bandcamp, Deezer TikTok, Instagram.
+- Local SVG icons for Spotify, Apple Music, Bandcamp, YouTube Music, TikTok, Instagram.
 - Smooth anchor scrolling; simple top nav: `Home | Music | Contact`.
 
 ## 5) Content Model
@@ -32,7 +32,7 @@ Public hub for Dmytro Vorobiov as a **musician**. Prioritizes listening (Spotify
   - `cover` (path, optional)
   - `release_date` (YYYY-MM-DD)
   - `description` (short text)
-  - `platforms` (array of `{name: spotify|apple|bandcamp|deezer, url: ...}`)
+  - `platforms` (array of `{name: spotify|apple|youtube|bandcamp, url: ...}`)
 - `assets/images/portrait.jpg` for hero image.
 - Social links editable in `_config.yml`.
 

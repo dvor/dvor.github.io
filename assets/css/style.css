@@ -109,6 +109,64 @@ html { scroll-behavior: smooth; }
   color: var(--text);
 }
 
+/* === Go Page Links === */
+.go-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto 32px auto;
+}
+
+.go-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--panel);
+  border: 1px solid #282828;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+
+.go-link:hover {
+  background: #202020;
+  border-color: var(--link);
+  text-decoration: none;
+}
+
+.go-link img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.go-link span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.go-link.bandcamp span,
+.go-link.mailing-list span {
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .go-links {
+    max-width: 100%;
+  }
+  
+  .go-link {
+    padding: 14px 16px;
+  }
+  
+  .go-link span {
+    font-size: 1rem;
+  }
+}
+
 .icons { 
   display: flex; 
   gap: 14px; 

@@ -13,7 +13,7 @@ title: Home
     <p class="bio">
       Dmytro is an Amsterdam-based multi-instrumentalist sculpting immersive soundscapes at the crossroads of jazz, progressive fusion, and rock. On Wandering Spaces, his latest album, he explores not just notes—but the silence between them—drawing inspiration from Miles Davis’ electric period and filtering it through a forward-leaning, progressive lens.
     </p>
-    {% include streaming-badges.html %}
+    {% include streaming-links.html style="badges" %}
   </div>
 </section>
 <section id="music" class="section">
