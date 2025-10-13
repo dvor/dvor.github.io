@@ -7,6 +7,6 @@ permalink: /links/
   {% include streaming-badges.html %}
   
   <div class="more-info">
-    <a href="{{ '/' | relative_url }}">More about {{ site.title }}</a>
+    <a href="{{ '/' | relative_url }}">More about artist</a>
   </div>
 </section>
