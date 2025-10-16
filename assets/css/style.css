@@ -167,29 +167,26 @@ html { scroll-behavior: smooth; }
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(135deg, var(--link), #e85a4f);
-  color: white !important;
+  background: var(--panel);
+  border: 1px solid #282828;
+  color: var(--text) !important;
   padding: 16px 20px;
   border-radius: 12px;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(212, 100, 38, 0.3);
-  transition: all 0.3s ease;
-  border: none;
+  transition: all 0.2s ease;
   cursor: pointer;
-  min-height: 60px;
 }
 
 .cta-button:hover {
-  background: linear-gradient(135deg, #e85a4f, var(--link));
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(212, 100, 38, 0.4);
+  background: #202020;
+  border-color: var(--link);
   text-decoration: none;
 }
 
 .cta-button:active {
-  transform: translateY(0);
+  background: #1a1a1a;
 }
 
 @media (max-width: 500px) {

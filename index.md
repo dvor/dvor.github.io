@@ -22,7 +22,7 @@ layout: default
   <p class="cta-subtitle">Be the first to hear new releases and exclusive content.<br>Monthly updates, no spam.</p>
   <div class="mailing-list-cta">
     <a class="ml-onclick-form cta-button" href="javascript:void(0)" onclick="ml('show', 'R2ISyG', true); if(typeof sa_event !== 'undefined') sa_event('mailing_list_signup_home');">
-      🎧 Get early access to new music
+      🎧 Get early access to new music and more
     </a>
   </div>
 </section>
