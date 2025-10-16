@@ -128,10 +128,10 @@ html { scroll-behavior: smooth; }
 }
 
 .cta-subtitle {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   color: var(--text-light);
   margin-bottom: 1.5rem;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .more-info {
@@ -166,22 +166,25 @@ html { scroll-behavior: smooth; }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  background: var(--panel);
-  border: 1px solid #282828;
-  color: var(--text) !important;
+  width: auto;
+  max-width: 300px;
+  background: linear-gradient(135deg, #d64a28, #8b2f1a);
+  border: none;
+  color: white !important;
   padding: 16px 20px;
-  border-radius: 12px;
-  font-size: 1.1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
   cursor: pointer;
+  box-shadow: 0 2px 6px rgba(214, 74, 40, 0.3);
 }
 
 .cta-button:hover {
-  background: #202020;
-  border-color: var(--link);
+  background: linear-gradient(135deg, #e85a32, #a4371e);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(214, 74, 40, 0.4);
   text-decoration: none;
 }
 
@@ -253,6 +256,13 @@ html { scroll-behavior: smooth; }
   .go-link span {
     font-size: 1rem;
   }
+}
+
+/* Mailing list button on go page - adjust for no icon */
+.mailing-list-cta .go-link {
+  justify-content: center;
+  gap: 0;
+  width: 100%;
 }
 
 .icons { 
