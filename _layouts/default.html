@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=2025-10-22">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=2025-10-24-epk">
   {%- seo -%}
   
   <!-- MailerLite Universal -->
@@ -18,7 +18,7 @@
   <!-- End MailerLite Universal -->
 </head>
 <body>
-  {% unless page.url == '/go/' %}
+  {% unless page.url == '/go/' or page.url == '/epk/' %}
   <header class="header">
     <div class="wrap nav">
       <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>

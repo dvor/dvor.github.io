@@ -405,6 +405,389 @@ html { scroll-behavior: smooth; }
   }
 }
 
+/* EPK Page Styles */
+.epk-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.epk-header {
+  text-align: left;
+  padding: 1.5rem 0 2rem 0;
+  border-bottom: 2px solid #1f1f1f;
+  margin-bottom: 2rem;
+}
+
+.epk-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.epk-meta p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.epk-quick-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.epk-quick-links a:hover {
+  text-decoration: underline;
+}
+
+.epk-last-updated {
+  font-size: 0.85rem !important;
+  opacity: 0.7;
+}
+
+.epk-hook {
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  background: rgba(125, 211, 252, 0.05);
+  border-radius: 12px;
+}
+
+.epk-hook h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+.epk-action-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.epk-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--panel);
+  border: 1px solid #282828;
+  color: var(--text) !important;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.epk-button.primary {
+  background: linear-gradient(135deg, var(--link), #e85a4f);
+  color: white !important;
+  border: none;
+  font-weight: 600;
+}
+
+.epk-button:hover {
+  background: #202020;
+  border-color: var(--accent);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.epk-button.primary:hover {
+  background: linear-gradient(135deg, #e85a4f, var(--link));
+}
+
+.epk-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.epk-section:last-child {
+  border-bottom: none;
+}
+
+.epk-section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(125, 211, 252, 0.2);
+}
+
+.epk-bio-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.epk-bio-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.epk-portrait {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid #282828;
+}
+
+.epk-bio-text {
+  min-width: 0;
+}
+
+.epk-one-liner {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #1a1a1a;
+}
+
+.epk-one-liner h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  color: var(--text);
+}
+
+.epk-copyable {
+  background: var(--panel);
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border: 1px solid #282828;
+  margin: 0;
+}
+
+.epk-credits-inline {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #1a1a1a;
+}
+
+.epk-credits-inline h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  color: var(--text);
+}
+
+.epk-credits-inline p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.epk-listen-links {
+  margin-bottom: 2rem;
+}
+
+.epk-listen-links p {
+  margin: 0.8rem 0;
+  font-size: 0.95rem;
+}
+
+.epk-listen-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.epk-listen-links a:hover {
+  text-decoration: underline;
+}
+
+.epk-contact-simple p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.epk-contact-simple a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.epk-contact-simple a:hover {
+  text-decoration: underline;
+}
+
+.epk-bio-short {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.epk-bio-full {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-light);
+}
+
+.epk-album-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.epk-album-details p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.epk-focus-tracks h4,
+.epk-tracklist h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.8rem 0;
+  color: var(--text);
+}
+
+.epk-focus-tracks ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.epk-focus-tracks li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.epk-tracklist ol {
+  margin: 0;
+  padding-left: 1.5rem;
+  counter-reset: track-counter;
+}
+
+.epk-tracklist li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.epk-tracklist .duration {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.epk-streaming-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.epk-player {
+  margin: 1.5rem 0;
+}
+
+.epk-player iframe {
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.epk-credits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.epk-credits li {
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.epk-credits li:last-child {
+  border-bottom: none;
+}
+
+.epk-contact p {
+  margin-bottom: 1rem;
+}
+
+.epk-social-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.epk-social-links a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.epk-social-links a:hover {
+  text-decoration: underline;
+}
+
+.epk-updated {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  opacity: 0.6;
+  margin-top: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .epk-header h1 {
+    font-size: 1.3rem;
+  }
+  
+  .epk-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .epk-action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .epk-button {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+  
+  .epk-bio-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  .epk-portrait {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .epk-streaming-buttons {
+    flex-direction: column;
+  }
+  
+  .epk-social-links {
+    justify-content: center;
+  }
+}
+
 .icons { 
   display: flex; 
   gap: 14px; 
