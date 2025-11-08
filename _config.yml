@@ -16,8 +16,6 @@ streaming:
     url: "https://open.spotify.com/artist/4EerBY9hdFw6XSfa2zH0TH"
   - name: "apple"
     url: "https://music.apple.com/artist/dmytro-vorobiov/1825502150"
-  - name: "youtube"
-    url: "https://music.youtube.com/channel/UC3NvddrK6kePKoHS9HtJfzQ"
   - name: "bandcamp"
     url: "https://dmytrovorobiov.bandcamp.com"
 
