@@ -103,9 +103,18 @@ html { scroll-behavior: smooth; }
 /* === Links Page Styling === */
 .links-page {
   text-align: center;
-  padding: 32px 0;
+  padding: 16px 0 32px 0;
   max-width: 600px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .links-page {
+    padding: 0 0 32px 0;
+  }
+  .wrap {
+    padding: 16px 16px 24px 16px;
+  }
 }
 
 .links-page .badges {
