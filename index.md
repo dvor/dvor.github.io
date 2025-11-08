@@ -19,14 +19,14 @@ layout: default
 <!-- Mailing list CTA -->
 <section class="section mailing-cta-section">
   <div class="mailing-list-hero">
-    <p class="mailing-hook">Be part of the inner circle 💌</p>
-    <h2 class="mailing-headline">🎧 Join my list and get unreleased tracks + early access to new music.</h2>
+    <p class="mailing-hook">🎷 Be one of the first listeners</p>
+    <h2 class="mailing-headline">Join my private list for unreleased ambient jazz fusion and early track drops.</h2>
     <div class="mailing-cta-primary">
       <a class="ml-onclick-form mailing-button" href="javascript:void(0)" onclick="ml('show', 'R2ISyG', true); if(typeof sa_event !== 'undefined') sa_event('mailing_list_signup_home');">
         Join the list
       </a>
     </div>
-    <p class="mailing-disclaimer">No spam. Just music and good vibes.</p>
+    <p class="mailing-disclaimer">No spam — just music, good vibes, and behind-the-scenes notes.</p>
   </div>
 </section>
 
